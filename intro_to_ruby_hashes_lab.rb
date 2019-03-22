@@ -27,8 +27,11 @@ def monopoly_with_third_tier
 end
 
 def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
-	
+	monopoly = {
+	  :reading_railroad => {"moretagage_value" => "$100"}, :pennsylvania_railroad => {"moretagage_value" => "$200"},
+	  :b_and_o_railroad => {"moretagage_value" => "$400"},
+	  :shortline => {"moretagage_value" => "$800"}
+	}
 end
 
 
