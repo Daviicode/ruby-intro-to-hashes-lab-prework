@@ -8,8 +8,10 @@ def actor
 end
 
 def monopoly
-	monopoly = {:railroads => 
-  
+	monopoly = {
+    :railroads => {:pieces => 4, :names =>{}, :rent_in_dollars => {}
+    }
+	}
 end
 
 def monopoly_with_second_tier
